@@ -20,13 +20,13 @@ const RightComponent = styled(Box)`
 
 
 const dialogStyle = {
-    height: '93%',
+    height: '95%',
     width: '100%',
     boxshadow: 'none',
     overflow: 'hidden',
     maxWidth:'100%',
+    maxHeight:'100%',
     borderRadius: '0px',
-    padding: '20px',
 }
 
 
