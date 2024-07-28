@@ -1,1 +1,1 @@
-# LetsChat
+# LetsChat - Chatting App
