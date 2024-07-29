@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { MoreVert } from "@mui/icons-material";
 import { Menu, MenuItem, styled } from "@mui/material";
 
-const Menuoption = styled(Menu)`
+const MenuOption= styled(MenuItem)`
       font-size: 14px;
       padding: 15px 60px 5px 24px;
       color: #4a4a4a;
@@ -29,10 +29,15 @@ const HeaderMenu = () => {
         open={open}
         onClose={handleClose}
         getContentAnchorEl={null}
+        transformOrigin={{
+          
+          horizontal: 'center',
+          vertical: 'right'
+        }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuOption onClick={handleClose}>Profile</MenuOption>
+        <MenuOption onClick={handleClose}>Settings</MenuOption>
+        <MenuOption onClick={handleClose}>Logout</MenuOption>
       </Menu>
     </>
   );
