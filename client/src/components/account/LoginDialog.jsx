@@ -84,10 +84,10 @@ const LoginDialog = () => {
 
             <Component>
                 <Container>
-                <Titles> Hey! This a Whatsapp Clone "LetsChat" </Titles>
+                <Titles> Hey! This a Desktop Clone "LetsChat" </Titles>
                     <Title> To Use LetsChat on your Computer: </Title>
                     <StyledList>
-                        <ListItem> 1. Open Whatsapp on your phone </ListItem>
+                        <ListItem> 1. Open LetsChat on your phone </ListItem>
                         <ListItem> 2. Tap Settings and select Linked Devices </ListItem>
                         <ListItem> 3. Point your phones to this screen to capture the code </ListItem>
                     </StyledList>
