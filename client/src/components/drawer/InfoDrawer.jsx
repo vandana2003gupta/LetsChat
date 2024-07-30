@@ -5,7 +5,7 @@ import Profile from './Profile';
 
 const Header = styled(Box)`
       background: #6288ef;
-      height: 107px;
+      height: 97px;
       color: #FFFFFF;
       display:flex;
       & > svg, & > p {
